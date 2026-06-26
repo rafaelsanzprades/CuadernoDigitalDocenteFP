@@ -1,27 +1,25 @@
+// next.config.mjs
 import withPWAInit from "@ducanh2912/next-pwa";
-
-const withPWA = withPWAInit({
+var withPWA = withPWAInit({
   dest: "public",
   disable: process.env.NODE_ENV === "development",
-  register: true,
+  register: true
 });
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "standalone",
+var nextConfig = {
   turbopack: {},
   async rewrites() {
-    // URL de la API según el entorno.
     const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://cdd-backend-215337606799.europe-west1.run.app";
     return {
       fallback: [
         {
           source: "/api/:path*",
-          destination: `${apiUrl}/api/:path*`,
-        },
-      ],
+          destination: `${apiUrl}/api/:path*`
+        }
+      ]
     };
-  },
+  }
 };
-
-export default withPWA(nextConfig);
+var next_config_default = withPWA(nextConfig);
+export {
+  next_config_default as default
+};
