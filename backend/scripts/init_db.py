@@ -1,4 +1,12 @@
 import logging
+import os
+import sys
+
+# Add db_seeds directory to path so seeds can be imported directly
+_seeds_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'db_seeds')
+if _seeds_dir not in sys.path:
+    sys.path.insert(0, _seeds_dir)
+
 from database import SessionLocal, engine, Base
 from models import ProfessionalFamily, Degree, User, ModuleDocument
 
@@ -51,7 +59,7 @@ def check_and_seed_db():
 
             # Seeds rápidos de profesores ficticios
             try:
-                from seed_fictitious import seed_fake_teachers
+                from scripts.db_seeds.seed_fictitious import seed_fake_teachers
                 seed_fake_teachers()
                 logger.info("seed_fictitious completado")
             except Exception as e:
@@ -62,7 +70,7 @@ def check_and_seed_db():
 
     # Módulo Demo SIEMPRE: tiene su propia validación interna de duplicados.
     try:
-        from seed_fictitious_full import generate_demo_module
+        from scripts.db_seeds.seed_fictitious_full import generate_demo_module
         generate_demo_module(db)
         logger.info("seed_fictitious_full completado. Módulo Demo creado con éxito.")
     except Exception as e:
