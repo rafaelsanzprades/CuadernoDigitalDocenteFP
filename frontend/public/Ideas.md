@@ -15,23 +15,23 @@
 
 > **Fuente:** CIFPA Cuaderno v10 Manual (27p), Guía PD v1 §4 (67p), Módulo 4 Curso JJ (3 partes)
 
-- [ ] **[Fase 3]** **Matriz de Calificación Diaria:** Cuaderno tipo Excel de doble entrada (Alumnado vs. Indicadores) interactivo en la web para registrar notas ágilmente.
+- [x] **[Fase 3]** **Matriz de Calificación Diaria:** Cuaderno tipo Excel de doble entrada (Alumnado vs. Indicadores) interactivo en la web para registrar notas ágilmente.
   - *CIFPA v10:* Hoja `INTRO_Calificaciones` — cada fila es un alumno, cada columna un indicador, con escala discreta/continua y conversión automática.
   - *Guía PD v1 §4.1:* Las actividades de evaluación generan evidencias que se recogen con técnicas e instrumentos. Cada instrumento produce una calificación que alimenta los CE.
 
-- [ ] **[Fase 3]** **Módulo de Instrumentos e Indicadores:** Creación de Rúbricas o Listas de Control vinculadas a los CE.
+- [x] **[Fase 3]** **Módulo de Instrumentos e Indicadores:** Creación de Rúbricas o Listas de Control vinculadas a los CE.
   - *CIFPA v10:* Hoja `INTRO_Instrumentos` — define tipo (rúbrica, lista de control, escala valoración, prueba objetiva, registro observación, diario, etc.), escala (discreta/continua), agentes (heteroevaluación, coevaluación, autoevaluación), evaluación (parcial/final), peso por CE, campo Rec para recuperaciones.
   - *Guía PD v1 §4.1:* Instrumentos de evaluación vs instrumentos de calificación. Los primeros recogen evidencias, los segundos ponderan para nota.
   - *Modelo Instrumento:* Alineación curricular (vinculado a CE), claridad (verbos precisos, desempeños medibles), ponderación equilibrada, validez y fiabilidad, función formativa y retroalimentación.
 
-- [ ] **[Fase 3]** **Cadena de trazabilidad completa:** Implementar la cascada **Indicador → CE → RA → Módulo** con ponderaciones en cada nivel.
+- [x] **[Fase 3]** **Cadena de trazabilidad completa:** Implementar la cascada **Indicador → CE → RA → Módulo** con ponderaciones en cada nivel.
   - *CIFPA v10:* Hoja `INTRO_Indicadores` — cada indicador tiene peso dentro del CE. Hoja `CONF_CE` — cada CE tiene peso dentro del RA. Hoja `CONF_RA` — cada RA tiene peso dentro del módulo.
   - *Módulo 2 Curso JJ:* Jerarquía: CPE → OG → RA → CE → Contenidos. Los RA son objeto directo de evaluación y calificación. Los CE son descriptores observables y evaluables.
 
-- [ ] **[Fase 3]** **Tipos de dato y escalas:** Soporte para datos discretos (1-4, A-D) y continuos (0-10) con coeficiente de conversión configurable por instrumento.
+- [x] **[Fase 3]** **Tipos de dato y escalas:** Soporte para datos discretos (1-4, A-D) y continuos (0-10) con coeficiente de conversión configurable por instrumento.
   - *CIFPA v10:* Hoja `INTRO_Instrumentos` — campo "Tipo de dato" (discreto/continuo) y "Escala" (1-4, 0-10, etc.).
 
-- [ ] **[Fase 3]** **Agentes de evaluación:** Distinguir heteroevaluación, coevaluación y autoevaluación en cada instrumento.
+- [x] **[Fase 3]** **Agentes de evaluación:** Distinguir heteroevaluación, coevaluación y autoevaluación en cada instrumento.
   - *CIFPA v10:* Campo "Agentes" en `INTRO_Instrumentos`.
 
 - [ ] **[Fase 3]** **Modificación Manual Justificada:** Permitir sobrescribir la nota calculada de un RA añadiendo una justificación pedagógica (requisito legal).
@@ -86,7 +86,7 @@
 - [ ] **[Fase 3]** **Estadísticas de evaluación:** Hojas de estadísticas automáticas por evaluación.
   - *CIFPA v10:* Hojas `EV_FO-Estadísticas`, `EV_FE-Estadísticas`, `EV_Parcial-Estadísticas`.
 
-- [ ] **[Fase 3]** **Proceso jerárquico de cálculo:**
+- [x] **[Fase 3]** **Proceso jerárquico de cálculo:**
   1. CE: Calculado a partir de los instrumentos de calificación.
   2. RA: Media ponderada de sus CE.
   3. Calificación Final: Media ponderada de las calificaciones de todos los RA.
@@ -137,21 +137,21 @@
   - *CIFPA v10:* Hoja `INTRO_FP-Dual`.
   - *Módulo 2 Curso JJ:* FEOE Opción A (con RA) — se especifican RA desarrollados en la empresa, desarrollo parcial o total, justificación pedagógica. FEOE Opción B (sin RA) — solo actividades de seguimiento.
 
-- [ ] **[Fase 4]** **Evaluación del Tutor de Empresa:** Interfaz/registro para volcar la rúbrica (1 a 4) del tutor externo.
+- [x] **[Fase 4]** **Evaluación del Tutor de Empresa:** Interfaz/registro para volcar la rúbrica (1 a 4) del tutor externo.
   - *Módulo 4 Curso JJ Parte 3:* El tutor/a dual de empresa valora cada actividad con puntuación de 1 a 4. Un RA se considera superado si la media de sus actividades es >2. Se incluye valoración cualitativa.
 
-- [ ] **[Fase 4]** **Generación Anexo XI b:** Plan de formación individualizado automático.
+- [x] **[Fase 4]** **Generación Anexo XI b:** Plan de formación individualizado automático.
 
 ### 2.3 FEOE (Formación en Centros de Trabajo)
 
-- [ ] **[Fase 4]** **Gestión de FEOE completa:** Empresa, tutor, horas, evaluación del tutor, convenio.
+- [x] **[Fase 4]** **Gestión de FEOE completa:** Empresa, tutor, horas, evaluación del tutor, convenio.
   - *CIFPA v10:* Hoja `M02.T03_E FEOE`.
   - *Guía PD v1 §2.9:* Organización temporal (fechas inicio/fin, duración horas), RA desarrollados, actividades, seguimiento (reuniones quincenales presenciales, visitas a empresa, comunicaciones puntuales).
 
-- [ ] **[Fase 4]** **Generación automática de documentación FEOE:** Convenios, anexos, evaluaciones de empresa.
+- [x] **[Fase 4]** **Generación automática de documentación FEOE:** Convenios, anexos, evaluaciones de empresa.
   - *D 91/2024 Art. 49:* Exención del periodo de FEOE por experiencia laboral (últimos 5 años).
 
-- [ ] **[Fase 4]** **Plataforma de Firma Digital y Conformidad:** Sistema integrado para gestionar el volumen masivo de anexos, planes de formación individualizados y firmas electrónicas (co-evaluación) con los tutores de empresa, esencial dado el carácter dual de toda la nueva FP.
+- [x] **[Fase 4]** **Plataforma de Firma Digital y Conformidad:** Sistema integrado para gestionar el volumen masivo de anexos, planes de formación individualizados y firmas electrónicas (co-evaluación) con los tutores de empresa, esencial dado el carácter dual de toda la nueva FP.
 
 ---
 
@@ -264,12 +264,12 @@ El usuario elige el nivel de detalle al generar la PD. Cada nivel incluye los an
 
 *(Para el uso interactivo del docente dentro del resto de la aplicación)*
 
-- [ ] **[Fase 6]** **Dashboard de Estadísticas Interactivo:** Gráficas de rendimiento académico (sexo, edad, nacionalidad), % aprobados y comparativas por RA.
-- [ ] **[Fase 6]** **Dashboard de Indicadores:** Visualización de los indicadores del Sistema Estatal a nivel de módulo.
-- [ ] **[Fase 6]** **Estadísticas por evaluación:** Distribución de notas en Ev1, Ev2, Ev3, EvFO, EvFE.
+- [x] **[Fase 6]** **Dashboard de Estadísticas Interactivo:** Gráficas de rendimiento académico (sexo, edad, nacionalidad), % aprobados y comparativas por RA.
+- [x] **[Fase 6]** **Dashboard de Indicadores:** Visualización de los indicadores del Sistema Estatal a nivel de módulo.
+- [x] **[Fase 6]** **Estadísticas por evaluación:** Distribución de notas en Ev1, Ev2, Ev3, EvFO, EvFE.
   - *CIFPA v10:* Hojas `EV_FO-Estadísticas`, `EV_FE-Estadísticas`, `EV_Parcial-Estadísticas`.
-- [ ] **[Fase 6]** **Análisis de trazabilidad:** Visualización de la cadena Indicador → CE → RA → Módulo con pesos y resultados.
-- [ ] **[Fase 6]** **Comparativa ordinaria vs extraordinaria:** Análisis de mejora entre evaluaciones.
+- [x] **[Fase 6]** **Análisis de trazabilidad:** Visualización de la cadena Indicador → CE → RA → Módulo con pesos y resultados.
+- [x] **[Fase 6]** **Comparativa ordinaria vs extraordinaria:** Análisis de mejora entre evaluaciones.
 
 ---
 
@@ -279,7 +279,7 @@ El usuario elige el nivel de detalle al generar la PD. Cada nivel incluye los an
 
 ### 5.1 Tutoría
 
-- [ ] **[Fase 4]** **Registro Básico de Tutorías:** Panel de mínimos para que el docente anote sus propias observaciones de tutoría individual.
+- [x] **[Fase 4]** **Registro Básico de Tutorías:** Panel de mínimos para que el docente anote sus propias observaciones de tutoría individual.
   - *CIFPA v10:* Hoja `INTRO_Tutoría` — campos: Fecha, Hora inicio/fin, Alumno/a, Ámbito, Canal, Tipo, Tema, Participantes, Desarrollo, Acuerdos.
   - *Ámbitos:* grupo completo, alumno/a, familia, equipo docente, orientación.
   - *Canales:* reunión presencial, llamada telefónica, correo electrónico, etc.
@@ -289,14 +289,14 @@ El usuario elige el nivel de detalle al generar la PD. Cada nivel incluye los an
 
 ### 5.2 Seguimiento diario
 
-- [ ] **[Fase 4]** **Distribución temporal visual:** Calendario interactivo con bloques temporales asignados a UD.
+- [x] **[Fase 4]** **Distribución temporal visual:** Calendario interactivo con bloques temporales asignados a UD.
   - *CIFPA v10:* Hoja `INTRO_Dist-Temporal` con tipos de bloque configurables. Hoja `CONF_DIST-TEMP` para definir tipos.
   - *Módulo 2 Curso JJ:* Organización de UD: secuencial, paralela o mixta.
 
-- [ ] **[Fase 4]** **Seguimiento de impartición:** Registro de qué se ha impartido realmente vs lo planificado.
+- [x] **[Fase 4]** **Seguimiento de impartición:** Registro de qué se ha impartido realmente vs lo planificado.
   - *CIFPA v10:* Hoja `INTRO_Seguimiento`. Hoja `INFO_Seguimiento` para informe.
 
-- [ ] **[Fase 4]** **Calendario escolar automático:** Generación desde fechas de inicio/fin y festivos.
+- [x] **[Fase 4]** **Calendario escolar automático:** Generación desde fechas de inicio/fin y festivos.
   - *CIFPA v10:* Hoja `INFO_Calendario` — generado automáticamente desde `CONF_Fechas`.
 
 ---
@@ -305,20 +305,20 @@ El usuario elige el nivel de detalle al generar la PD. Cada nivel incluye los an
 
 > **Fuente:** LO 3/2022, LOMLOE, Guía PD v1 §1.3, §5, Módulo 2 Curso JJ
 
-- [ ] **[Fase 2]** **Digitalización y Sostenibilidad:** Inclusión de competencias transversales.
+- [x] **[Fase 2]** **Digitalización y Sostenibilidad:** Inclusión de competencias transversales.
   - *Guía PD v1 §1.3:* Elementos transversales (sostenibilidad, igualdad, digitalización).
 
-- [ ] **[Fase 2]** **Plan de Contingencia Digital:** Estrategia para garantizar la continuidad del proceso de enseñanza-aprendizaje ante interrupciones (pandemia, emergencias, etc.). Incluye alternativas digitales, recursos online y adaptación de actividades.
+- [x] **[Fase 2]** **Plan de Contingencia Digital:** Estrategia para garantizar la continuidad del proceso de enseñanza-aprendizaje ante interrupciones (pandemia, emergencias, etc.). Incluye alternativas digitales, recursos online y adaptación de actividades.
   - *Guía PD v1 §7:* Plan de contingencia como sección obligatoria de la PD.
   - *IED 2024-25 §Q:* PH0 en la estructura de la PD.
 
-- [ ] **[Fase 2]** **Registro de Innovación:** Proyectos de emprendimiento y equidad/DUA (necesidades de apoyo).
-- [ ] **[Fase 2]** **Competencias clave:** Desarrollo y evaluación de competencias clave (CL, CSTEM, CD, CCEC, CPSAA, CE, CIEC).
+- [x] **[Fase 2]** **Registro de Innovación:** Proyectos de emprendimiento y equidad/DUA (necesidades de apoyo).
+- [x] **[Fase 2]** **Competencias clave:** Desarrollo y evaluación de competencias clave (CL, CSTEM, CD, CCEC, CPSAA, CE, CIEC).
   - *LOMLOE/LO 3/2022:* 7 competencias clave del sistema educativo.
   - *Indicadores IED 2024-25:* "Las programaciones incluyen el desarrollo de las competencias clave" (4 puntos).
 
-- [ ] **[Fase 2]** **Itinerario Personal para la Empleabilidad (IPE I e IPE II):** Tratamiento específico para estos nuevos módulos que sustituyen a los clásicos FOL y EIE, gestionando sus particularidades curriculares según la nueva ley.
-- [ ] **[Fase 2]** **Proyecto Intermodular Continuo:** Gestión del Proyecto Intermodular como eje vertebrador del aprendizaje de forma conjunta entre varios módulos (especialmente en Grados C y D), más allá del antiguo "módulo de proyecto" que se hacía solo al final del ciclo.
+- [x] **[Fase 2]** **Itinerario Personal para la Empleabilidad (IPE I e IPE II):** Tratamiento específico para estos nuevos módulos que sustituyen a los clásicos FOL y EIE, gestionando sus particularidades curriculares según la nueva ley.
+- [x] **[Fase 2]** **Proyecto Intermodular Continuo:** Gestión del Proyecto Intermodular como eje vertebrador del aprendizaje de forma conjunta entre varios módulos (especialmente en Grados C y D), más allá del antiguo "módulo de proyecto" que se hacía solo al final del ciclo.
 
 ---
 
