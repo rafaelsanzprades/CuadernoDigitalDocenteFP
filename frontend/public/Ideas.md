@@ -1,10 +1,10 @@
 # 💡 Backlog de Ideas y Mejoras - Cuaderno FP
 
 > **Última actualización:** 19 julio 2026  
-> **Fuentes analizadas:** 49 documentos organizados en `RF Ideas/referencia/` (ver `INDICE.md`)
+> **Fuentes analizadas:** Documentos organizados en `RF Ideas/referencia/` (ver `INDICE.md`)
 > - Normativa: LO 3/2022, RD 659/2023, RD 69/2025, RD 532/2025, D 91/2024 Aragón, O ECD/1005/2018
-> - Guía PD v1 (Javier Edo Gual, CIFPA), Curso PD JJ (8 módulos), Modelos UD/Tarea/Instrumento
-> - CIFPA Cuaderno v10, Ejemplo PD IED 2024-25, PD completa IED, TFM RSP, Indicadores, Memoria
+> - Guía PD v1, Modelos UD/Tarea/Instrumento
+> - Cuaderno v10, Ejemplo PD, PD completa Detallada, TFM, Indicadores, Memoria
 
 *(Nota: Las Fases 2, 4 (parcial), 5 (parcial) y 6 se han completado y eliminado de este backlog para mayor legibilidad).*
 
