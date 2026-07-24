@@ -1,15 +1,16 @@
 # Auditoría Title Case en español — APP Cuaderno FP
-# Fecha: 19 julio 2026
+# Fecha: 19 julio 2026 (re-auditoría 24 julio 2026)
 
 ## Resumen
-- **es.json**: 9 correcciones necesarias
-- **Componentes TSX**: ~30 strings visibles con Title Case incorrecto
+- **es.json**: 9 correcciones — ✅ APLICADAS
+- **Componentes TSX**: ~30 strings visibles con Title Case incorrecto — ✅ APLICADAS
 - **en.json**: NO tocar (inglés sí usa Title Case)
 - **Otros locales** (ca, va, eu, gl, ba): Pendiente de revisión
+- **Build**: ✅ 22 rutas, 0 errores TypeScript (24 julio 2026)
 
 ---
 
-## 1. `frontend/src/i18n/locales/es.json` — 9 correcciones
+## 1. `frontend/src/i18n/locales/es.json` — 9 correcciones ✅ APLICADAS
 
 | Línea | ❌ Actual | ✅ Correcto | Contexto |
 |-------|----------|------------|----------|
@@ -25,7 +26,7 @@
 
 ---
 
-## 2. Componentes TSX — Title Case incorrecto en strings visibles
+## 2. Componentes TSX — Title Case incorrecto en strings visibles ✅ APLICADAS
 
 ### `AISettingsPanel.tsx`
 - L40: `Motor de Inteligencia Artificial` → ok (nombre propio)
@@ -123,3 +124,20 @@
 - `gl.json` (gallego): Revisar
 - `ba.json` (bable): Revisar
 - `en.json` (inglés): NO tocar (Title Case es correcto en inglés)
+
+---
+
+## 5. Correcciones adicionales (re-auditoría 24 julio 2026)
+
+### `title=` attributes adicionales corregidos
+| Archivo | Corrección |
+|---------|-----------|
+| `documentos/page.tsx` | "PDF Preview" → "Vista previa PDF" |
+| `informes/page.tsx` | "PDF Preview" → "Vista previa PDF" |
+| `magia/page.tsx` | "PDF Preview" → "Vista previa PDF" |
+| `archivos/page.tsx` | "Crea un curso y su archivo Grupo asociado" → "...grupo asociado" |
+| `archivos/page.tsx` | "Curso Importado" → "Curso importado" (string visible) |
+
+### Verificación final (24 julio 2026)
+- Búsqueda `[A-Z][a-z]+ [A-Z][a-z]` en todos los `.tsx`: solo quedan excepciones válidas (siglas FEOE, IA, PDF, CE + marcas Google/Drive)
+- Build Next.js: ✅ 22 rutas, 0 errores
