@@ -6,7 +6,7 @@
 > - Guía PD v1, Modelos UD/Tarea/Instrumento
 > - Cuaderno v10, Ejemplo PD, PD completa Detallada, TFM, Indicadores, Memoria
 
-*(Nota: Las Fases 2, 4 (parcial), 5 (parcial) y 6 se han completado y eliminado de este backlog para mayor legibilidad).*
+*(Nota: La Fase de Estructura UI, Fase de Consolidación de Pestañas y otras Fases previas se han completado exhaustivamente según la Revisión Estructural. Han sido eliminadas de este backlog).*
 
 ---
 
@@ -26,3 +26,14 @@
    - Generador en PDF/DOCX de **Unidades Didácticas (UD)** con el desglose metodológico completo.
    - Generador en PDF/DOCX de **Tareas Competenciales** (escenario, evidencias, técnicas).
    - Generación de la tabla obligatoria **Anexo I** con la ponderación de RAs/CEs.
+
+## Sprint X: Distribución y Despliegue
+*Objetivo: Facilitar la instalación y uso de la aplicación a los docentes sin conocimientos técnicos.*
+
+1. **Instalador mediante PowerShell:**
+   - Crear script que se ejecute directamente desde la web (ej. `iwr -useb https://cuadernofp.com/instalar | iex`).
+   - El script descarga la app, crea un acceso directo en el escritorio y arranca el servidor local automáticamente.
+2. **Base de Datos Empaquetada:**
+   - Aprovechar que la base de datos `cdd_pro.db` es un archivo **SQLite** ligero (~31 MB).
+   - Distribuirla empaquetada junto con la app, logrando una experiencia 100% Offline tras la instalación.
+   - Separación estricta: los datos personales del docente siguen estando en "Archivos Locales" completamente apartados.
