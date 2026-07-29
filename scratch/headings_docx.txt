@@ -1,0 +1,60 @@
+Heading 1|Introducción
+Heading 2|Identificación
+Heading 2|Marco normativo
+Heading 2|Contextualización
+Heading 3|Entorno geográfico y sociocultural
+Heading 3|Entorno socioeconómico y productivo
+Heading 3|Contexto escolar
+Heading 3|Características del alumnado
+Heading 3|Infraestructura y recursos educativos
+Heading 1|Desarrollo curricular
+Heading 2|Duración, ubicación y distribución horaria
+Heading 2|Estándares de competencias profesionales (ECP)
+Heading 2|Competencias profesionales y para la empleabilidad (CPE)
+Heading 2|Objetivos generales (OG)
+Heading 2|Resultados de aprendizaje (RA) y criterios de evaluación (CE)
+Heading 2|Contenidos (C)
+Heading 2|Relación entre los elementos curriculares
+Heading 2|Organización y distribución temporal: unidades didácticas y otros tiempos
+Heading 2|Formación en empresa u organismo equiparado (FEOE)
+Heading 3|Modalidad de la FEOE
+Heading 3|Organización temporal de la FEOE
+Heading 3|Resultados de aprendizaje desarrollados en la FEOE
+Heading 3|Organización para el alumnado que no realice la FEOE
+Heading 3|Seguimiento de la FEOE
+Heading 3|Modalidad de la FEOE
+Heading 3|Organización temporal de la FEOE
+Heading 3|Resultados de aprendizaje desarrollados en la FEOE
+Heading 3|Actividades de seguimiento y evaluación
+Heading 3|Seguimiento de la FEOE
+Heading 1|Metodología didáctica
+Heading 2|Principios metodológicos
+Heading 2|Estrategias metodológicas
+Heading 2|Materiales y recursos didácticos
+Heading 2|Agrupamientos
+Heading 2|Plan de aplicación de los desdobles
+Heading 2|Aprendizaje colaborativo basado en proyectos y/o retos
+Heading 1|Procedimiento de evaluación y de calificación
+Heading 2|Actividades, técnicas e instrumentos
+Heading 2|Evaluaciones
+Heading 3|Evaluación inicial
+Heading 3|Evaluaciones parciales
+Heading 3|Primera evaluación final
+Heading 4|Alumnado que no haya perdido el derecho a la evaluación continua
+Heading 4|Alumnado que haya perdido el derecho a la evaluación continua
+Heading 3|Segunda evaluación final
+Heading 2|Información al alumnado o, en su caso, a las familias del procedimiento de evaluación y calificación
+Heading 2|Pérdida del derecho a la evaluación continua
+Heading 2|Procedimiento de recuperación
+Heading 2|Evaluación de la fase de formación en empresa u organismo equiparado (FEOE)
+Heading 2|Criterios de calificación y ponderación
+Heading 3|Criterios de calificación
+Heading 3|Ponderación de los resultados de aprendizaje y de los criterios de evaluación
+Heading 2|Plan de recuperación de módulos profesionales pendientes
+Heading 1|Medidas de respuesta educativa para la inclusión
+Heading 1|Actividades complementarias y extraescolares
+Heading 1|Plan de contingencia
+Heading 2|Ausencia prolongada del profesorado titular
+Heading 2|Ausencia prolongada del alumnado por causas justificadas
+Heading 2|Interrupción generalizada del [[ módulo profesional | proyecto ]] o del centro
+Heading 1|Publicidad de la programación didáctica.
